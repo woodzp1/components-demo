@@ -3,6 +3,7 @@
 </script>
 
 <main>
+<!-- todo make loop -->
     <Card />
     <Card />
     <Card />

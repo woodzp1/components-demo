@@ -1,10 +1,22 @@
+<script>
+    
+    let person = {
+        fullName: "Phill Connors",
+        favSong:"I got you babe",
+        petName: "Punxsutawney Phil"
+    }
+
+</script>
+
+
+
 <section>
-    <h2>Phill Connors</h2>
+    <h2>{person.fullName}</h2>
     <dl>
         <dt>Favourite song:</dt>
-        <dd>I Got You Babe</dd>
+        <dd>{person.favSong}</dd>
         <dt>Pet's name:</dt>
-        <dd>Punxsutawney Phil</dd>
+        <dd>{person.petName}</dd>
     </dl>
 </section>
 
