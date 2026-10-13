@@ -1,8 +1,11 @@
 <script>
-    import billm from '$lib/assets/images/groundhog-day.webp';
+    // import billm from '$lib/assets/images/groundhog-day.webp';
+    let { img } = $props();
+    $inspect(img);
+    
 </script>
 
-<img src="{billm}" alt="Phil Connors">
+<img src="{img}" alt="Phil Connors">
 
 <style>
     img {
