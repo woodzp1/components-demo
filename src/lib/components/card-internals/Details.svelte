@@ -1,10 +1,11 @@
 <script>
     
-    let person = {
-        fullName: "Phill Connors",
-        favSong:"I got you babe",
-        petName: "Punxsutawney Phil"
-    }
+    
+    let { person =  {
+        fullName: "default",
+        favSong:"default",
+        petName: "default"
+    }} = $props();
 
 </script>
 
